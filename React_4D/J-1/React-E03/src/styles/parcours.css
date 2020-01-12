@@ -1,0 +1,63 @@
+body, input, button {
+  font-family: Overpass;
+  font-weight: 300;
+  outline: 0
+}
+
+.contenu {
+  margin: auto;
+  width: 900px
+}
+
+#header {
+  border-bottom: #000 1px solid;
+  padding: 50px
+}
+
+#nav {
+  text-align: center
+}
+
+#nav a {
+  margin: 0 20px;
+  color: inherit;
+  text-decoration: underline
+}
+
+#nav .active {
+  text-decoration: none
+}
+
+#main {
+  padding: 50px 0;
+  min-height: 400px
+}
+
+#intro h1 {
+  font-size: 40px;
+  line-height: 50px
+}
+
+#intro h2 {
+  font-size: 25px;
+  line-height: 30px
+}
+
+#footer {
+  color: #999;
+  font-size: .8em;
+  margin-top: 200px;
+  padding: 30px;
+  clear: both;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  margin-top: 100px
+}
+
+#footer .fleft {
+  float: left
+}
+
+#footer .fright {
+  float: right
+}

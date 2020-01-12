@@ -1,0 +1,11 @@
+#result {
+  font-size: 2em;
+  margin: 3em 0;
+  text-align: center;
+}
+#result.success{
+  color:#12a834;
+}
+#result.error{
+  color:#a81234;
+}

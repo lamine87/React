@@ -1,0 +1,23 @@
+@import src/styles/vars
+
+.steps
+  counter-reset: ingredient
+  margin: 6em
+  padding-bottom: 0.1em
+
+.step
+  position: relative
+  margin: 4em 0
+
+  &::before
+    counter-increment: ingredient
+    content: counter(ingredient)
+    position: absolute
+    top: -.4em
+    left: -.7em
+    font-size: 4em
+    color: $instruction-color
+
+  &-desc
+    color: $gray
+    position: relative
